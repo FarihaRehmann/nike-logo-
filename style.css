@@ -105,7 +105,8 @@ margin-bottom: 8px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  width: auto
+width: 200px;
+height: 50px;
 }
 
 .btn-buy:hover {
