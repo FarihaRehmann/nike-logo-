@@ -1,0 +1,113 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+header {
+  padding: 18px 60px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+ width: 40px;
+ height: 40px;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo-text span {
+  color: #e8553e;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #e8553e;
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+.hero {
+  padding: 40px 60px;
+  min-height: 85vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left img {
+  width: 550px;
+}
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 45%;
+}
+
+.hero-right h1 {
+  font-size: 58px;
+  margin-bottom: -5px;
+  color: #1e2a5e;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+
+.hero-right h1 span {
+  color: #e8553e;
+  display: block;
+}
+
+.hero-right p {
+  font-size: 16px;
+  color: #555;
+margin-bottom: 8px;
+}
+
+.btn-buy {
+  background-color: #3b5bdb;
+  color: white;
+  padding: 16px 36px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: auto
+}
+
+.btn-buy:hover {
+  background-color: #2f4ac0;
+}
